@@ -1,38 +1,59 @@
-.App {
+body{
+  /*background-image:url("https://avatars.mds.yandex.net/get-zen_doc/1533968/pub_5cb56ecdf1e09500b3b2d653_5cb56eea24122700afbde756/scale_1200");*/
+  background-color: #8eb0df;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  text-transform: uppercase;
+  font-family: 'Radio Canada', sans-serif;
+  text-shadow: 2px 2px grey;
+  color:#fdd07f ;
+  font-size: 25px;
+  margin-top: 18px;
+  font-weight: bold;
+}
+h3{
+  margin-top: 50px;
+  font-family: 'Comic Neue', cursive;
+  text-shadow: 2px 2px grey;
+  color:#98f6f6 ;
+  flex-wrap: wrap;
+  font-size: 25px;
+}
+h3:hover{
+  color: aqua;
+}
+button{
+  margin-top: 20px;
+  width: 90px;
+  padding: 7px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  background-color: #fab7bb;
+  border: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #f5828b;
+}
+img{
+  width: 600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media all and (max-width: 500px){
+  h1{
+    margin-top: 50px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  img{
+    width: 340px;
+    margin-top: 30px;
   }
 }
