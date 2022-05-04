@@ -6,7 +6,7 @@ function App(){
   const [tip, setTip] = useState('');
 
   const getTip =async()=>{
-    const response = await fetch("http://www.boredapi.com/api/activity/");
+    const response = await fetch("https://www.boredapi.com/api/activity/");
     const data = await response.json();
     setTip(data.activity)
     console.log(data.activity)
